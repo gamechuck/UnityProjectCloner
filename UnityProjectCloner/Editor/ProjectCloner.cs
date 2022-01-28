@@ -90,6 +90,7 @@ namespace UnityProjectCloner
             ProjectCloner.LinkFolders(sourceProject.projectSettingsPath, cloneProject.projectSettingsPath);
             ProjectCloner.LinkFolders(sourceProject.packagesPath, cloneProject.packagesPath);
             ProjectCloner.LinkFolders(sourceProject.autoBuildPath, cloneProject.autoBuildPath);
+            ProjectCloner.LinkFolders(sourceProject.fmodPath, cloneProject.fmodPath);
 
             ProjectCloner.RegisterClone(cloneProject);
 
